@@ -9,6 +9,7 @@ import IE from "../data/itemEmoji.json";
 import { Track } from "discord-player";
 import { BaseComponent, Components, StringSelectMenuComponent, MusicButtonComponent, ButtonStandardComponent } from "../component";
 import inventoryModel from "../database/models/inventoryModel";
+import { GoogleGenerativeAI } from "@google/generative-ai";
 globalThis.configure = require('../../config.json');
 
 
@@ -16,6 +17,7 @@ export class LoliBotClient extends Client {
      timeStampUser: Collection<string, NodeJS.Timeout> = new Collection();
      userComponent: Collection<string, { custom_id: string, msg: Message<boolean> }> = new Collection();
      cooldowns: Collection<string, Collection<string, number>> = new Collection();
+     gemini = new GoogleGenerativeAI(configure.GEMINI).getGenerativeModel({ model: "gemini-pro" })
 
      readonly PrefixCommands: PrefixCommands[];
      readonly slashCommands: SlashCommands[];

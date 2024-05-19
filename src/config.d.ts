@@ -1,5 +1,6 @@
 declare interface Config extends Readonly<Record<string, unknown>> {
-     readonly MONGO: string;
+     readonly MONGO: string
+     readonly GEMINI: string
      readonly app: Readonly<{
           token: string;
           global: boolean;

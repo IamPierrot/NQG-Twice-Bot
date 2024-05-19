@@ -51,7 +51,7 @@ export = {
                .addFields([
                     {
                          name: `- Các loại lệnh của Bot \n `,
-                         value: `${helpString} \n \n[Invite me](https://discord.com/api/oauth2/authorize?client_id=1140305763215093842&permissions=68169720921974&scope=bot) ● [NeyuQ-server](https://discord.gg/neyuq)`,
+                         value: `${helpString} \n \n[Invite me](https://discord.com/oauth2/authorize?client_id=1140305763215093842) ● [NeyuQ-server](https://discord.gg/neyuq)`,
                          inline: false
                     }
                ])
