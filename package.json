@@ -1,0 +1,39 @@
+{
+  "name": "neyuq-casino-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/src/index.js",
+  "devDependencies": {
+    "@types/moment-duration-format": "^2.2.6",
+    "@types/node": "^20.12.7",
+    "discord-api-types": "^0.37.80",
+    "typescript": "^5.4.5"
+  },
+  "scripts": {
+    "start": "rmdir /s /q dist && tsc && node .",
+    "build": "rmdir /s /q dist && tsc",
+    "deploy": "node ."
+  },
+  "author": "Pierrot",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.9.0",
+    "axios": "^1.6.8",
+    "chalk": "^4.1.2",
+    "cpu-stat": "^2.0.1",
+    "discord-player": "^6.6.8",
+    "discord.js": "^14.14.1",
+    "distube": "^4.2.2",
+    "ffmpeg-static": "^5.2.0",
+    "genius-lyrics": "^4.4.7",
+    "moment": "^2.30.1",
+    "moment-duration-format": "^2.3.2",
+    "mongoose": "^8.3.2",
+    "ms": "^2.1.3",
+    "pm2": "^5.3.1",
+    "prism-media": "^1.3.5",
+    "probability-node": "^0.0.1",
+    "table": "^6.8.2",
+    "ytdl-core": "^4.11.5"
+  }
+}

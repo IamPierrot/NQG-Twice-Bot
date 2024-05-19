@@ -1,0 +1,2157 @@
+{
+     "1": [
+          "abide",
+          "abode/abided",
+          "abode/abided",
+          "lưu trú, lưu lại"
+     ],
+     "2": [
+          "arise",
+          "arose",
+          "arisen",
+          "phát sinh"
+     ],
+     "3": [
+          "awake",
+          "awoke",
+          "awoken",
+          "đánh thức, thức"
+     ],
+     "4": [
+          "backslide",
+          "backslid",
+          "backslidden/backslid",
+          "tái phạm"
+     ],
+     "5": [
+          "be",
+          "was/were",
+          "been",
+          "thì, là, bị, ở"
+     ],
+     "6": [
+          "bear",
+          "bore",
+          "borne",
+          "mang, chịu đựng"
+     ],
+     "7": [
+          "beat",
+          "beat",
+          "beaten/beat",
+          "đánh, đập"
+     ],
+     "8": [
+          "become",
+          "became",
+          "become",
+          "trở nên"
+     ],
+     "9": [
+          "befall",
+          "befell",
+          "befallen",
+          "xảy đến"
+     ],
+     "10": [
+          "begin",
+          "began",
+          "begun",
+          "bắt đầu"
+     ],
+     "11": [
+          "behold",
+          "beheld",
+          "beheld",
+          "ngắm nhìn"
+     ],
+     "12": [
+          "bend",
+          "bent",
+          "bent",
+          "bẻ cong"
+     ],
+     "13": [
+          "beset",
+          "beset",
+          "beset",
+          "bao quanh"
+     ],
+     "14": [
+          "bespeak",
+          "bespoke",
+          "bespoken",
+          "chứng tỏ"
+     ],
+     "15": [
+          "bet",
+          "bet/betted",
+          "bet/betted",
+          "đánh cược, cá cược"
+     ],
+     "16": [
+          "bid",
+          "bid",
+          "bid",
+          "trả giá"
+     ],
+     "17": [
+          "bind",
+          "bound",
+          "bound",
+          "buộc, trói"
+     ],
+     "18": [
+          "bite",
+          "bit",
+          "bitten",
+          "cắn"
+     ],
+     "19": [
+          "bleed",
+          "bled",
+          "bled",
+          "chảy máu"
+     ],
+     "20": [
+          "blow",
+          "blew",
+          "blown",
+          "thổi"
+     ],
+     "21": [
+          "break",
+          "broke",
+          "broken",
+          "đập vỡ"
+     ],
+     "22": [
+          "breed",
+          "bred",
+          "bred",
+          "nuôi, dạy dỗ"
+     ],
+     "23": [
+          "bring",
+          "brought",
+          "brought",
+          "mang đến"
+     ],
+     "24": [
+          "broadcast",
+          "broadcast",
+          "broadcast",
+          "phát thanh"
+     ],
+     "25": [
+          "browbeat",
+          "browbeat",
+          "browbeaten/browbeat",
+          "hăm dọa"
+     ],
+     "26": [
+          "build",
+          "built",
+          "built",
+          "xây dựng"
+     ],
+     "27": [
+          "burn",
+          "burnt/burned",
+          "burnt/burned",
+          "đốt, cháy"
+     ],
+     "28": [
+          "burst",
+          "burst",
+          "burst",
+          "nổ tung, vỡ òa"
+     ],
+     "29": [
+          "bust",
+          "busted/bust",
+          "busted/bust",
+          "làm bể, làm vỡ"
+     ],
+     "30": [
+          "buy",
+          "bought",
+          "bought",
+          "mua"
+     ],
+     "31": [
+          "cast",
+          "cast",
+          "cast",
+          "ném, tung"
+     ],
+     "32": [
+          "catch",
+          "caught",
+          "caught",
+          "bắt, chụp"
+     ],
+     "33": [
+          "chide",
+          "chid/chided",
+          "chid/chidden/chided",
+          "mắng, chửi"
+     ],
+     "34": [
+          "choose",
+          "chose",
+          "chosen",
+          "chọn, lựa"
+     ],
+     "35": [
+          "cleave",
+          "clove/cleft/cleaved",
+          "cloven/cleft/cleaved",
+          "chẻ, tách hai"
+     ],
+     "36": [
+          "cleave",
+          "clave",
+          "cleaved",
+          "dính chặt"
+     ],
+     "37": [
+          "cling",
+          "clung",
+          "clung",
+          "bám vào, dính vào"
+     ],
+     "38": [
+          "clothe",
+          "clothed/clad",
+          "clothed/clad",
+          "che phủ"
+     ],
+     "39": [
+          "come",
+          "came",
+          "come",
+          "đến, đi đến"
+     ],
+     "40": [
+          "cost",
+          "cost",
+          "cost",
+          "có giá là"
+     ],
+     "41": [
+          "creep",
+          "crept",
+          "crept",
+          "bò, trườn, lẻn"
+     ],
+     "42": [
+          "crossbreed",
+          "crossbred",
+          "crossbred",
+          "cho lai giống"
+     ],
+     "43": [
+          "crow",
+          "crew/crewed",
+          "crowed",
+          "gáy (gà)"
+     ],
+     "44": [
+          "cut",
+          "cut",
+          "cut",
+          "cắt, chặt"
+     ],
+     "45": [
+          "daydream",
+          "daydreamed/daydreamt",
+          "daydreamed/daydreamt",
+          "nghĩ vẩn vơ, mơ mộng"
+     ],
+     "46": [
+          "deal",
+          "dealt",
+          "dealt",
+          "giao thiệp"
+     ],
+     "47": [
+          "dig",
+          "dug",
+          "dug",
+          "đào"
+     ],
+     "48": [
+          "disprove",
+          "disproved",
+          "disproved/disproven",
+          "bác bỏ"
+     ],
+     "49": [
+          "dive",
+          "dove/dived",
+          "dived",
+          "lặn, lao xuống"
+     ],
+     "50": [
+          "do",
+          "did",
+          "done",
+          "làm"
+     ],
+     "51": [
+          "draw",
+          "drew",
+          "drawn",
+          "vẽ, kéo"
+     ],
+     "52": [
+          "dream",
+          "dreamt/dreamed",
+          "dreamt/dreamed",
+          "mơ thấy"
+     ],
+     "53": [
+          "drink",
+          "drank",
+          "drunk",
+          "uống"
+     ],
+     "54": [
+          "drive",
+          "drove",
+          "driven",
+          "lái xe"
+     ],
+     "55": [
+          "dwell",
+          "dwelt",
+          "dwelt",
+          "trú ngụ, ở"
+     ],
+     "56": [
+          "eat",
+          "ate",
+          "eaten",
+          "ăn"
+     ],
+     "57": [
+          "fall",
+          "fell",
+          "fallen",
+          "ngã, rơi"
+     ],
+     "58": [
+          "feed",
+          "fed",
+          "fed",
+          "cho ăn, ăn, nuôi"
+     ],
+     "59": [
+          "feel",
+          "felt",
+          "felt",
+          "cảm thấy"
+     ],
+     "60": [
+          "fight",
+          "fought",
+          "fought",
+          "chiến đấu"
+     ],
+     "61": [
+          "find",
+          "found",
+          "found",
+          "tìm thấy, thấy"
+     ],
+     "62": [
+          "fit",
+          "fitted/fit",
+          "fitted/fit",
+          "làm cho vừa, làm cho hợp"
+     ],
+     "63": [
+          "flee",
+          "fled",
+          "fled",
+          "chạy trốn"
+     ],
+     "64": [
+          "fling",
+          "flung",
+          "flung",
+          "tung, quăng"
+     ],
+     "65": [
+          "fly",
+          "flew",
+          "flown",
+          "bay"
+     ],
+     "66": [
+          "forbear",
+          "forbore",
+          "forborne",
+          "nhịn"
+     ],
+     "67": [
+          "forbid",
+          "forbade/forbad",
+          "forbidden",
+          "cấm, cấm đoán"
+     ],
+     "68": [
+          "forecast",
+          "forecast/forecasted",
+          "forecast/forecasted",
+          "tiên đoán"
+     ],
+     "69": [
+          "forego",
+          "(also",
+          "forgo)",
+          "forewent foregone bỏ, kiêng"
+     ],
+     "70": [
+          "foresee",
+          "foresaw",
+          "forseen",
+          "thấy trước"
+     ],
+     "71": [
+          "foretell",
+          "foretold",
+          "foretold",
+          "đoán trước"
+     ],
+     "72": [
+          "forget",
+          "forgot",
+          "forgotten",
+          "quên"
+     ],
+     "73": [
+          "forgive",
+          "forgave",
+          "forgiven",
+          "tha thứ"
+     ],
+     "74": [
+          "forsake",
+          "forsook",
+          "forsaken",
+          "ruồng bỏ"
+     ],
+     "75": [
+          "freeze",
+          "froze",
+          "frozen",
+          "(làm) đông lại"
+     ],
+     "76": [
+          "frostbite",
+          "frostbit",
+          "frostbitten",
+          "bỏng lạnh"
+     ],
+     "77": [
+          "get",
+          "got",
+          "got/gotten",
+          "có được"
+     ],
+     "78": [
+          "gild",
+          "gilt/gilded",
+          "gilt/gilded",
+          "mạ vàng"
+     ],
+     "79": [
+          "gird",
+          "girt/girded",
+          "girt/girded",
+          "đeo vào"
+     ],
+     "80": [
+          "give",
+          "gave",
+          "given",
+          "cho"
+     ],
+     "81": [
+          "go",
+          "went",
+          "gone",
+          "đi"
+     ],
+     "82": [
+          "grind",
+          "ground",
+          "ground",
+          "nghiền, xay"
+     ],
+     "83": [
+          "grow",
+          "grew",
+          "grown",
+          "mọc, trồng"
+     ],
+     "84": [
+          "hand-feed",
+          "hand-fed",
+          "hand-fed",
+          "cho ăn bằng tay"
+     ],
+     "85": [
+          "handwrite",
+          "handwrote",
+          "handwritten",
+          "viết tay"
+     ],
+     "86": [
+          "hang",
+          "hung",
+          "hung",
+          "móc lên, treo lên"
+     ],
+     "87": [
+          "have",
+          "had",
+          "had",
+          "có"
+     ],
+     "88": [
+          "hear",
+          "heard",
+          "heard",
+          "nghe"
+     ],
+     "89": [
+          "heave",
+          "hove/heaved",
+          "hove/heaved",
+          "trục lên"
+     ],
+     "90": [
+          "hew",
+          "hewed",
+          "hewn/hewed",
+          "chặt, đốn"
+     ],
+     "91": [
+          "hide",
+          "hid",
+          "hidden",
+          "giấu, trốn, nấp"
+     ],
+     "92": [
+          "hit",
+          "hit",
+          "hit",
+          "đụng"
+     ],
+     "93": [
+          "hurt",
+          "hurt",
+          "hurt",
+          "làm đau"
+     ],
+     "94": [
+          "inbreed",
+          "inbred",
+          "inbred",
+          "lai giống cận huyết"
+     ],
+     "95": [
+          "inlay",
+          "inlaid",
+          "inlaid",
+          "cẩn, khảm"
+     ],
+     "96": [
+          "input",
+          "input",
+          "input",
+          "đưa vào"
+     ],
+     "97": [
+          "inset",
+          "inset",
+          "inset",
+          "dát, ghép"
+     ],
+     "98": [
+          "interbreed",
+          "interbred",
+          "interbred",
+          "giao phối, lai giống"
+     ],
+     "99": [
+          "interweave",
+          "interwove/interweaved",
+          "interwoven/interweaved",
+          "trộn lẫn, xen lẫn"
+     ],
+     "100": [
+          "interwind",
+          "interwound",
+          "interwound",
+          "cuộn vào, quấn vào"
+     ],
+     "101": [
+          "jerry-build",
+          "jerry-built",
+          "jerry-built",
+          "xây dựng cẩu thả"
+     ],
+     "102": [
+          "keep",
+          "kept",
+          "kept",
+          "giữ"
+     ],
+     "103": [
+          "kneel",
+          "knelt/kneeled",
+          "knelt/kneeled",
+          "quỳ"
+     ],
+     "104": [
+          "knit",
+          "knit/knitted",
+          "knit/knitted",
+          "đan"
+     ],
+     "105": [
+          "know",
+          "knew",
+          "known",
+          "biết, quen biết"
+     ],
+     "106": [
+          "lay",
+          "laid",
+          "laid",
+          "đặt, để"
+     ],
+     "107": [
+          "lead",
+          "led",
+          "led",
+          "dẫn dắt, lãnh đạo"
+     ],
+     "108": [
+          "lean",
+          "leaned/leant",
+          "leaned/leant",
+          "dựa, tựa"
+     ],
+     "109": [
+          "leap",
+          "leapt",
+          "leapt",
+          "nhảy, nhảy qua"
+     ],
+     "110": [
+          "learn",
+          "learnt/learned",
+          "learnt/learned",
+          "học, được biết"
+     ],
+     "111": [
+          "leave",
+          "left",
+          "left",
+          "ra đi, để lại"
+     ],
+     "112": [
+          "lend",
+          "lent",
+          "lent",
+          "cho mượn"
+     ],
+     "113": [
+          "let",
+          "let",
+          "let",
+          "cho phép, để cho"
+     ],
+     "114": [
+          "lie",
+          "lay",
+          "lain",
+          "nằm"
+     ],
+     "115": [
+          "light",
+          "lit/lighted",
+          "lit/lighted",
+          "thắp sáng"
+     ],
+     "116": [
+          "lip-read",
+          "lip-read",
+          "lip-read",
+          "mấp máy môi"
+     ],
+     "117": [
+          "lose",
+          "lost",
+          "lost",
+          "làm mất, mất"
+     ],
+     "118": [
+          "make",
+          "made",
+          "made",
+          "chế tạo, sản xuất"
+     ],
+     "119": [
+          "mean",
+          "meant",
+          "meant",
+          "có nghĩa là"
+     ],
+     "120": [
+          "meet",
+          "met",
+          "met",
+          "gặp mặt"
+     ],
+     "121": [
+          "miscast",
+          "miscast",
+          "miscast",
+          "chọn vai đóng không hợp"
+     ],
+     "122": [
+          "misdeal",
+          "misdealt",
+          "misdealt",
+          "chia lộn bài, chia bài sai"
+     ],
+     "123": [
+          "misdo",
+          "misdid",
+          "misdone",
+          "phạm lỗi"
+     ],
+     "124": [
+          "mishear",
+          "misheard",
+          "misheard",
+          "nghe nhầm"
+     ],
+     "125": [
+          "mislay",
+          "mislaid",
+          "mislaid",
+          "để lạc mất"
+     ],
+     "126": [
+          "mislead",
+          "misled",
+          "misled",
+          "làm lạc đường"
+     ],
+     "127": [
+          "mislearn",
+          "mislearned/mislearnt",
+          "mislearned/mislearnt",
+          "học nhầm"
+     ],
+     "128": [
+          "misread",
+          "misread",
+          "misread",
+          "đọc sai"
+     ],
+     "129": [
+          "misset",
+          "misset",
+          "misset",
+          "đặt sai chỗ"
+     ],
+     "130": [
+          "misspeak",
+          "misspoke",
+          "misspoken",
+          "nói sai"
+     ],
+     "131": [
+          "misspell",
+          "misspelt",
+          "misspelt",
+          "viết sai chính tả"
+     ],
+     "132": [
+          "misspend",
+          "misspent",
+          "misspent",
+          "tiêu phí, bỏ phí"
+     ],
+     "133": [
+          "mistake",
+          "mistook",
+          "mistaken",
+          "phạm lỗi, lầm lẫn"
+     ],
+     "134": [
+          "misteach",
+          "mistaught",
+          "mistaught",
+          "dạy sai"
+     ],
+     "135": [
+          "misunderstand",
+          "misunderstood",
+          "misunderstood",
+          "hiểu lầm"
+     ],
+     "136": [
+          "miswrite",
+          "miswrote",
+          "miswritten",
+          "viết sai"
+     ],
+     "137": [
+          "mow",
+          "mowed",
+          "mown/mowed",
+          "cắt cỏ"
+     ],
+     "138": [
+          "offset",
+          "offset",
+          "offset",
+          "đền bù"
+     ],
+     "139": [
+          "outbid",
+          "outbid",
+          "outbid",
+          "trả hơn giá"
+     ],
+     "140": [
+          "outbreed",
+          "outbred",
+          "outbred",
+          "giao phối xa"
+     ],
+     "141": [
+          "outdo",
+          "outdid",
+          "outdone",
+          "làm giỏi hơn"
+     ],
+     "142": [
+          "outdraw",
+          "outdrew",
+          "outdrawn",
+          "rút súng ra nhanh hơn"
+     ],
+     "143": [
+          "outdrink",
+          "outdrank",
+          "outdrunk",
+          "uống quá chén"
+     ],
+     "144": [
+          "outdrive",
+          "outdrove",
+          "outdriven",
+          "lái nhanh hơn"
+     ],
+     "145": [
+          "outfight",
+          "outfought",
+          "outfought",
+          "đánh giỏi hơn"
+     ],
+     "146": [
+          "outfly",
+          "outflew",
+          "outflown",
+          "bay cao/xa hơn"
+     ],
+     "147": [
+          "outgrow",
+          "outgrew",
+          "outgrown",
+          "lớn nhanh hơn"
+     ],
+     "148": [
+          "outleap",
+          "outleaped/outleapt",
+          "outleaped/outleapt",
+          "nhảy cao/xa hơn"
+     ],
+     "149": [
+          "outlie",
+          "outlied",
+          "outlied",
+          "nói dối"
+     ],
+     "150": [
+          "output",
+          "output",
+          "output",
+          "cho ra (dữ kiện)"
+     ],
+     "151": [
+          "outride",
+          "outrode",
+          "outridden",
+          "cưỡi ngựa giỏi hơn"
+     ],
+     "152": [
+          "outrun",
+          "outran",
+          "outrun",
+          "chạy nhanh hơn, vượt giá"
+     ],
+     "153": [
+          "outsell",
+          "outsold",
+          "outsold",
+          "bán nhanh hơn"
+     ],
+     "154": [
+          "outshine",
+          "outshined/outshone",
+          "outshined/outshone",
+          "sáng hơn, rạng rỡ hơn"
+     ],
+     "155": [
+          "outshoot",
+          "outshot",
+          "outshot",
+          "bắn giỏi hơn, nảy mầm, mọc"
+     ],
+     "156": [
+          "outsing",
+          "outsang",
+          "outsung",
+          "hát hay hơn"
+     ],
+     "157": [
+          "outsit",
+          "outsat",
+          "outsat",
+          "ngồi lâu hơn"
+     ],
+     "158": [
+          "outsleep",
+          "outslept",
+          "outslept",
+          "ngủ lâu/muộn hơn"
+     ],
+     "159": [
+          "outsmell",
+          "outsmelled/outsmelt",
+          "outsmelled/outsmelt",
+          "khám phá, đánh hơi, sặc mùi"
+     ],
+     "160": [
+          "outspeak",
+          "outspoke",
+          "outspoken",
+          "nói nhiều/dài/to hơn"
+     ],
+     "161": [
+          "outspeed",
+          "outsped",
+          "outsped",
+          "đi/chạy nhanh hơn"
+     ],
+     "162": [
+          "outspend",
+          "outspent",
+          "outspent",
+          "tiêu tiền nhiều hơn"
+     ],
+     "163": [
+          "outswear",
+          "outswore",
+          "outsworn",
+          "nguyền rủa nhiều hơn"
+     ],
+     "164": [
+          "outswim",
+          "outswam",
+          "outswum",
+          "bơi giỏi hơn"
+     ],
+     "165": [
+          "outthink",
+          "outthought",
+          "outthought",
+          "suy nghĩ nhanh hơn"
+     ],
+     "166": [
+          "outthrow",
+          "outthrew",
+          "outthrown",
+          "ném nhanh hơn"
+     ],
+     "167": [
+          "outwrite",
+          "outwrote",
+          "outwritten",
+          "viết nhanh hơn"
+     ],
+     "168": [
+          "overbid",
+          "overbid",
+          "overbid",
+          "trả giá/bỏ thầu cao hơn"
+     ],
+     "169": [
+          "overbreed",
+          "overbred",
+          "overbred",
+          "nuôi quá nhiều"
+     ],
+     "170": [
+          "overbuild",
+          "overbuilt",
+          "overbuilt",
+          "xây quá nhiều"
+     ],
+     "171": [
+          "overbuy",
+          "overbought",
+          "overbought",
+          "mua quá nhiều"
+     ],
+     "172": [
+          "overcome",
+          "overcame",
+          "overcome",
+          "khắc phục"
+     ],
+     "173": [
+          "overdo",
+          "overdid",
+          "overdone",
+          "dùng quá mức, làm quá"
+     ],
+     "174": [
+          "overdraw",
+          "overdrew",
+          "overdrawn",
+          "rút quá số tiền, phóng đại"
+     ],
+     "175": [
+          "overdrink",
+          "overdrank",
+          "overdrunk",
+          "uống quá nhiều"
+     ],
+     "176": [
+          "overeat",
+          "overate",
+          "overeaten",
+          "ăn quá nhiều"
+     ],
+     "177": [
+          "overfeed",
+          "overfed",
+          "overfed",
+          "cho ăn quá mức"
+     ],
+     "178": [
+          "overfly",
+          "overflew",
+          "overflown",
+          "bay qua"
+     ],
+     "179": [
+          "overhang",
+          "overhung",
+          "overhung",
+          "nhô lên trên, treo lơ lửng"
+     ],
+     "180": [
+          "overhear",
+          "overheard",
+          "overheard",
+          "nghe trộm"
+     ],
+     "181": [
+          "overlay",
+          "overlaid",
+          "overlaid",
+          "phủ lên"
+     ],
+     "182": [
+          "overpay",
+          "overpaid",
+          "overpaid",
+          "trả quá tiền"
+     ],
+     "183": [
+          "override",
+          "overrode",
+          "overridden",
+          "lạm quyền"
+     ],
+     "184": [
+          "overrun",
+          "overran",
+          "overrun",
+          "tràn ngập"
+     ],
+     "185": [
+          "oversee",
+          "oversaw",
+          "overseen",
+          "trông nom"
+     ],
+     "186": [
+          "oversell",
+          "oversold",
+          "oversold",
+          "bán quá mức"
+     ],
+     "187": [
+          "oversew",
+          "oversewed",
+          "oversewn/oversewed",
+          "may nối vắt"
+     ],
+     "188": [
+          "overshoot",
+          "overshot",
+          "overshot",
+          "đi quá đích"
+     ],
+     "189": [
+          "oversleep",
+          "overslept",
+          "overslept",
+          "ngủ quên"
+     ],
+     "190": [
+          "overspeak",
+          "overspoke",
+          "overspoken",
+          "Nói quá nhiều, nói lấn át"
+     ],
+     "191": [
+          "overspend",
+          "overspent",
+          "overspent",
+          "tiêu quá lố"
+     ],
+     "192": [
+          "overspill",
+          "overspilled/overspilt",
+          "overspilled/overspilt",
+          "đổ, làm tràn"
+     ],
+     "193": [
+          "overtake",
+          "overtook",
+          "overtaken",
+          "đuổi bắt kịp"
+     ],
+     "194": [
+          "overthink",
+          "overthought",
+          "overthought",
+          "tính trước nhiều quá"
+     ],
+     "195": [
+          "overthrow",
+          "overthrew",
+          "overthrown",
+          "lật đổ"
+     ],
+     "196": [
+          "overwind",
+          "overwound",
+          "overwound",
+          "lên dây (đồng hồ) quá chặt"
+     ],
+     "197": [
+          "overwrite",
+          "overwrote",
+          "overwritten",
+          "viết dài quá, viết đè lên"
+     ],
+     "198": [
+          "partake",
+          "partook",
+          "partaken",
+          "tham gia, dự phần"
+     ],
+     "199": [
+          "pay",
+          "paid",
+          "paid",
+          "trả (tiền)"
+     ],
+     "200": [
+          "plead",
+          "pleaded/pled",
+          "pleaded/pled",
+          "bào chữa, biện hộ"
+     ],
+     "201": [
+          "prebuild",
+          "prebuilt",
+          "prebuilt",
+          "làm nhà tiền chế"
+     ],
+     "202": [
+          "predo",
+          "predid",
+          "predone",
+          "làm trước"
+     ],
+     "203": [
+          "premake",
+          "premade",
+          "premade",
+          "làm trước"
+     ],
+     "204": [
+          "prepay",
+          "prepaid",
+          "prepaid",
+          "trả trước"
+     ],
+     "205": [
+          "presell",
+          "presold",
+          "presold",
+          "bán trước thời gian rao báo"
+     ],
+     "206": [
+          "preset",
+          "preset",
+          "preset",
+          "thiết lập sẵn, cài đặt sẵn"
+     ],
+     "207": [
+          "preshrink",
+          "preshrank",
+          "preshrunk",
+          "ngâm cho vải co trước khi may"
+     ],
+     "208": [
+          "proofread",
+          "proofread",
+          "proofread",
+          "Đọc bản thảo trước khi in"
+     ],
+     "209": [
+          "prove",
+          "proved",
+          "proven/proved",
+          "chứng minh"
+     ],
+     "210": [
+          "put",
+          "put",
+          "put",
+          "đặt, để"
+     ],
+     "211": [
+          "quick-freeze",
+          "quick-froze",
+          "quick-frozen",
+          "kết đông nhanh"
+     ],
+     "212": [
+          "quit",
+          "quit/quitted",
+          "quit/quitted",
+          "bỏ"
+     ],
+     "213": [
+          "read",
+          "read",
+          "read",
+          "đọc"
+     ],
+     "214": [
+          "reawake",
+          "reawoke",
+          "reawaken",
+          "đánh thức 1 lần nữa"
+     ],
+     "215": [
+          "rebid",
+          "rebid",
+          "rebid",
+          "trả giá, bỏ thầu"
+     ],
+     "216": [
+          "rebind",
+          "rebound",
+          "rebound",
+          "buộc lại, đóng lại"
+     ],
+     "217": [
+          "rebroadcast",
+          "rebroadcast/rebroadcasted",
+          "rebroadcast/rebroadcasted",
+          "cự tuyệt, khước từ"
+     ],
+     "218": [
+          "rebuild",
+          "rebuilt",
+          "rebuilt",
+          "xây dựng lại"
+     ],
+     "219": [
+          "recast",
+          "recast",
+          "recast",
+          "đúc lại"
+     ],
+     "220": [
+          "recut",
+          "recut",
+          "recut",
+          "cắt lại, băm"
+     ],
+     "221": [
+          "redeal",
+          "redealt",
+          "redealt",
+          "phát bài lại"
+     ],
+     "222": [
+          "redo",
+          "redid",
+          "redone",
+          "làm lại"
+     ],
+     "223": [
+          "redraw",
+          "redrew",
+          "redrawn",
+          "kéo ngược lại"
+     ],
+     "224": [
+          "refit",
+          "refitted/refit",
+          "refitted/refit",
+          "luồn, xỏ"
+     ],
+     "225": [
+          "regrind",
+          "reground",
+          "reground",
+          "mài sắc lại"
+     ],
+     "226": [
+          "regrow",
+          "regrew",
+          "regrown",
+          "trồng lại"
+     ],
+     "227": [
+          "rehang",
+          "rehung",
+          "rehung",
+          "treo lại"
+     ],
+     "228": [
+          "rehear",
+          "reheard",
+          "reheard",
+          "nghe trình bày lại"
+     ],
+     "229": [
+          "reknit",
+          "reknitted/reknit",
+          "reknitted/reknit",
+          "đan lại"
+     ],
+     "230": [
+          "relay",
+          "relaid",
+          "relaid",
+          "đặt lại"
+     ],
+     "231": [
+          "relay",
+          "relayed",
+          "relayed",
+          "truyền âm lại"
+     ],
+     "232": [
+          "relearn",
+          "relearned/relearnt",
+          "relearned/relearnt",
+          "học lại"
+     ],
+     "233": [
+          "relight",
+          "relit/relighted",
+          "relit/relighted",
+          "thắp sáng lại"
+     ],
+     "234": [
+          "remake",
+          "remade",
+          "remade",
+          "làm lại, chế tạo lại"
+     ],
+     "235": [
+          "rend",
+          "rent",
+          "rent",
+          "toạc ra, xé"
+     ],
+     "236": [
+          "repay",
+          "repaid",
+          "repaid",
+          "hoàn tiền lại"
+     ],
+     "237": [
+          "reread",
+          "reread",
+          "reread",
+          "đọc lại"
+     ],
+     "238": [
+          "rerun",
+          "reran",
+          "rerun",
+          "chiếu lại, phát lại"
+     ],
+     "239": [
+          "resell",
+          "resold",
+          "resold",
+          "bán lại"
+     ],
+     "240": [
+          "resend",
+          "resent",
+          "resent",
+          "gửi lại"
+     ],
+     "241": [
+          "reset",
+          "reset",
+          "reset",
+          "đặt lại, lắp lại"
+     ],
+     "242": [
+          "resew",
+          "resewed",
+          "resewn/resewed",
+          "may/khâu lại"
+     ],
+     "243": [
+          "retake",
+          "retook",
+          "retaken",
+          "chiếm lại,tái chiếm"
+     ],
+     "244": [
+          "reteach",
+          "retaught",
+          "retaught",
+          "dạy lại"
+     ],
+     "245": [
+          "retear",
+          "retore",
+          "retorn",
+          "khóc lại"
+     ],
+     "246": [
+          "retell",
+          "retold",
+          "retold",
+          "kể lại"
+     ],
+     "247": [
+          "rethink",
+          "rethought",
+          "rethought",
+          "suy tính lại"
+     ],
+     "248": [
+          "retread",
+          "retread",
+          "retread",
+          "lại giẫm/đạp lên"
+     ],
+     "249": [
+          "retrofit",
+          "retrofitted/retrofit",
+          "retrofitted/retrofit",
+          "trang bị thêm những bộ phận mới"
+     ],
+     "250": [
+          "rewake",
+          "rewoke/rewaked",
+          "rewaken/rewaked",
+          "đánh thức lại"
+     ],
+     "251": [
+          "rewear",
+          "rewore",
+          "reworn",
+          "mặc lại"
+     ],
+     "252": [
+          "reweave",
+          "rewove/reweaved",
+          "rewoven/reweaved",
+          "dệt lại"
+     ],
+     "253": [
+          "rewed",
+          "rewed/rewedded",
+          "rewed/rewedded",
+          "kết hôn lại"
+     ],
+     "254": [
+          "rewet",
+          "rewet/rewetted",
+          "rewet/rewetted",
+          "làm ướt lại"
+     ],
+     "255": [
+          "rewin",
+          "rewon",
+          "rewon",
+          "thắng lại"
+     ],
+     "256": [
+          "rewind",
+          "rewound",
+          "rewound",
+          "cuốn lại, lên dây lại"
+     ],
+     "257": [
+          "rewrite",
+          "rewrote",
+          "rewritten",
+          "viết lại"
+     ],
+     "258": [
+          "rid",
+          "rid",
+          "rid",
+          "giải thoát"
+     ],
+     "259": [
+          "ride",
+          "rode",
+          "ridden",
+          "cưỡi"
+     ],
+     "260": [
+          "ring",
+          "rang",
+          "rung",
+          "rung chuông"
+     ],
+     "261": [
+          "rise",
+          "rose",
+          "risen",
+          "đứng dậy, mọc"
+     ],
+     "262": [
+          "roughcast",
+          "roughcast",
+          "roughcast",
+          "tạo hình phỏng chừng"
+     ],
+     "263": [
+          "run",
+          "ran",
+          "run",
+          "chạy"
+     ],
+     "264": [
+          "sand-cast",
+          "sand-cast",
+          "sand-cast",
+          "đúc bằng khuôn cát"
+     ],
+     "265": [
+          "saw",
+          "sawed",
+          "sawn",
+          "cưa"
+     ],
+     "266": [
+          "say",
+          "said",
+          "said",
+          "nói"
+     ],
+     "267": [
+          "see",
+          "saw",
+          "seen",
+          "nhìn thấy"
+     ],
+     "268": [
+          "seek",
+          "sought",
+          "sought",
+          "tìm kiếm"
+     ],
+     "269": [
+          "sell",
+          "sold",
+          "sold",
+          "bán"
+     ],
+     "270": [
+          "send",
+          "sent",
+          "sent",
+          "gửi"
+     ],
+     "271": [
+          "set",
+          "set",
+          "set",
+          "đặt, thiết lập"
+     ],
+     "272": [
+          "sew",
+          "sewed",
+          "sewn/sewed",
+          "may"
+     ],
+     "273": [
+          "shake",
+          "shook",
+          "shaken",
+          "lay, lắc"
+     ],
+     "274": [
+          "shave",
+          "shaved",
+          "shaved/shaven",
+          "cạo (râu, mặt)"
+     ],
+     "275": [
+          "shear",
+          "sheared",
+          "shorn",
+          "xén lông (cừu)"
+     ],
+     "276": [
+          "shed",
+          "shed",
+          "shed",
+          "rơi, rụng"
+     ],
+     "277": [
+          "shine",
+          "shone",
+          "shone",
+          "chiếu sáng"
+     ],
+     "278": [
+          "shit",
+          "shit/shat/shitted",
+          "shit/shat/shitted",
+          "suộc khuộng đi đại tiện"
+     ],
+     "279": [
+          "shoot",
+          "shot",
+          "shot",
+          "bắn"
+     ],
+     "280": [
+          "show",
+          "showed",
+          "shown/showed",
+          "cho xem"
+     ],
+     "281": [
+          "shrink",
+          "shrank",
+          "shrunk",
+          "co rút"
+     ],
+     "282": [
+          "shut",
+          "shut",
+          "shut",
+          "đóng lại"
+     ],
+     "283": [
+          "sight-read",
+          "sight-read",
+          "sight-read",
+          "chơi hoặc hát mà không cần nghiên cứu trước"
+     ],
+     "284": [
+          "sing",
+          "sang",
+          "sung",
+          "ca hát"
+     ],
+     "285": [
+          "sink",
+          "sank",
+          "sunk",
+          "chìm, lặn"
+     ],
+     "286": [
+          "sit",
+          "sat",
+          "sat",
+          "ngồi"
+     ],
+     "287": [
+          "slay",
+          "slew",
+          "slain",
+          "sát hại, giết hại"
+     ],
+     "288": [
+          "sleep",
+          "slept",
+          "slept",
+          "ngủ"
+     ],
+     "289": [
+          "slide",
+          "slid",
+          "slid",
+          "trượt, lướt"
+     ],
+     "290": [
+          "sling",
+          "slung",
+          "slung",
+          "ném mạnh"
+     ],
+     "291": [
+          "slink",
+          "slunk",
+          "slunk",
+          "lẻn đi"
+     ],
+     "292": [
+          "slit",
+          "slit",
+          "slit",
+          "rạch, khứa"
+     ],
+     "293": [
+          "smell",
+          "smelt",
+          "smelt",
+          "ngửi"
+     ],
+     "294": [
+          "smite",
+          "smote",
+          "smitten",
+          "đập mạnh"
+     ],
+     "295": [
+          "sneak",
+          "sneaked/snuck",
+          "sneaked/snuck",
+          "trốn, lén"
+     ],
+     "296": [
+          "speak",
+          "spoke",
+          "spoken",
+          "nói"
+     ],
+     "298": [
+          "speed",
+          "sped/speeded",
+          "sped/speeded",
+          "chạy vụt"
+     ],
+     "299": [
+          "spell",
+          "spelt/spelled",
+          "spelt/spelled",
+          "đánh vần"
+     ],
+     "300": [
+          "spend",
+          "spent",
+          "spent",
+          "tiêu xài"
+     ],
+     "301": [
+          "spill",
+          "spilt/spilled",
+          "spilt/spilled",
+          "tràn, đổ ra"
+     ],
+     "302": [
+          "spin",
+          "spun/span",
+          "spun",
+          "quay sợi"
+     ],
+     "303": [
+          "spoil",
+          "spoilt/spoiled",
+          "spoilt/spoiled",
+          "làm hỏng"
+     ],
+     "304": [
+          "spread",
+          "spread",
+          "spread",
+          "lan truyền"
+     ],
+     "305": [
+          "steal",
+          "stole",
+          "stolen",
+          "đứng",
+          "đánh cắp"
+     ],
+     "306": [
+          "stick",
+          "stuck",
+          "stuck",
+          "ghim vào, đính"
+     ],
+     "307": [
+          "sting",
+          "stung",
+          "stung",
+          "châm, chích, đốt"
+     ],
+     "308": [
+          "stink",
+          "stunk/stank",
+          "stunk",
+          "bốc mùi hôi"
+     ],
+     "309": [
+          "stride",
+          "strode",
+          "stridden",
+          "bước sải"
+     ],
+     "310": [
+          "strike",
+          "struck",
+          "struck",
+          "đánh đập"
+     ],
+     "311": [
+          "string",
+          "strung",
+          "strung",
+          "gắn dây vào"
+     ],
+     "312": [
+          "sunburn",
+          "sunburned/sunburnt",
+          "sunburned/sunburnt",
+          "cháy nắng"
+     ],
+     "313": [
+          "swear",
+          "swore",
+          "sworn",
+          "tuyên thệ"
+     ],
+     "314": [
+          "sweat",
+          "sweat/sweated",
+          "sweat/sweated",
+          "đổ mồ hôi"
+     ],
+     "315": [
+          "sweep",
+          "swept",
+          "swept",
+          "quét"
+     ],
+     "316": [
+          "swell",
+          "swelled",
+          "swollen/swelled",
+          "phồng, sưng"
+     ],
+     "317": [
+          "swim",
+          "swam",
+          "swum",
+          "bơi lội"
+     ],
+     "318": [
+          "swing",
+          "swung",
+          "swung",
+          "đong đưa"
+     ],
+     "319": [
+          "take",
+          "took",
+          "taken",
+          "cầm, lấy"
+     ],
+     "320": [
+          "teach",
+          "taught",
+          "taught",
+          "dạy, giảng dạy"
+     ],
+     "321": [
+          "tear",
+          "tore",
+          "torn",
+          "xé, rách"
+     ],
+     "322": [
+          "telecast",
+          "telecast",
+          "telecast",
+          "phát đi bằng truyền hình"
+     ],
+     "323": [
+          "tell",
+          "told",
+          "told",
+          "kể, bảo"
+     ],
+     "324": [
+          "think",
+          "thought",
+          "thought",
+          "suy nghĩ"
+     ],
+     "325": [
+          "throw",
+          "threw",
+          "thrown",
+          "ném"
+     ],
+     "326": [
+          "thrust",
+          "thrust",
+          "thrust",
+          "thọc, nhấn"
+     ],
+     "327": [
+          "tread",
+          "trod",
+          "trodden/trod",
+          "giẫm, đạp"
+     ],
+     "328": [
+          "typewrite",
+          "typewrote",
+          "typewritten",
+          "đánh máy"
+     ],
+     "329": [
+          "unbend",
+          "unbent",
+          "unbent",
+          "làm thẳng lại"
+     ],
+     "330": [
+          "unbind",
+          "unbound",
+          "unbound",
+          "mở, tháo ra"
+     ],
+     "331": [
+          "unclothe",
+          "unclothed/unclad",
+          "unclothed/unclad",
+          "cởi áo, lột trần"
+     ],
+     "332": [
+          "undercut",
+          "undercut",
+          "undercut",
+          "ra giá rẻ hơn"
+     ],
+     "333": [
+          "underfeed",
+          "underfed",
+          "underfed",
+          "cho ăn đói, thiếu ăn"
+     ],
+     "334": [
+          "undergo",
+          "underwent",
+          "undergone",
+          "kinh qua"
+     ],
+     "335": [
+          "underlie",
+          "underlay",
+          "underlain",
+          "nằm dưới"
+     ],
+     "336": [
+          "understand",
+          "understood",
+          "understood",
+          "hiểu"
+     ],
+     "337": [
+          "undertake",
+          "undertook",
+          "undertaken",
+          "đảm nhận"
+     ],
+     "338": [
+          "underwrite",
+          "underwrote",
+          "underwritten",
+          "bảo hiểm"
+     ],
+     "339": [
+          "undo",
+          "undid",
+          "undone",
+          "tháo ra"
+     ],
+     "340": [
+          "unfreeze",
+          "unfroze",
+          "unfrozen",
+          "làm tan đông"
+     ],
+     "341": [
+          "unhang",
+          "unhung",
+          "unhung",
+          "hạ xuống, bỏ xuống"
+     ],
+     "342": [
+          "unhide",
+          "unhid",
+          "unhidden",
+          "hiển thị, không ẩn"
+     ],
+     "343": [
+          "unlearn",
+          "unlearned/unlearnt",
+          "unlearned/unlearnt",
+          "gạt bỏ, quên"
+     ],
+     "344": [
+          "unspin",
+          "unspun",
+          "unspun",
+          "quay ngược"
+     ],
+     "345": [
+          "unwind",
+          "unwound",
+          "unwound",
+          "tháo ra"
+     ],
+     "346": [
+          "uphold",
+          "upheld",
+          "upheld",
+          "ủng hộ"
+     ],
+     "347": [
+          "upset",
+          "upset",
+          "upset",
+          "đánh đổ, lật đổ"
+     ],
+     "348": [
+          "wake",
+          "woke/waked",
+          "woken/waked",
+          "thức giấc"
+     ],
+     "349": [
+          "wear",
+          "wore",
+          "worn",
+          "mặc"
+     ],
+     "350": [
+          "wed",
+          "wed/wedded",
+          "wed/wedded",
+          "kết hôn"
+     ],
+     "351": [
+          "weep",
+          "wept",
+          "wept",
+          "khóc"
+     ],
+     "352": [
+          "wet",
+          "wet/wetted",
+          "wet/wetted",
+          "làm ướt"
+     ],
+     "353": [
+          "win",
+          "won",
+          "won",
+          "thắng, chiến thắng"
+     ],
+     "354": [
+          "wind",
+          "wound",
+          "wound",
+          "quấn"
+     ],
+     "355": [
+          "withdraw",
+          "withdrew",
+          "withdrawn",
+          "rút lui"
+     ],
+     "356": [
+          "withhold",
+          "withheld",
+          "withheld",
+          "từ khước"
+     ],
+     "357": [
+          "withstand",
+          "withstood",
+          "withstood",
+          "cầm cự"
+     ],
+     "358": [
+          "work",
+          "worked",
+          "worked",
+          "rèn, nhào nặn đất"
+     ],
+     "359": [
+          "wring",
+          "wrung",
+          "wrung",
+          "vặn, siết chặt"
+     ],
+     "360": [
+          "write",
+          "wrote",
+          "written",
+          "viết"
+     ]
+}
