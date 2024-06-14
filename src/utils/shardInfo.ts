@@ -1,21 +1,13 @@
+import { duration } from "moment";
 import { LoliBotClient } from "./clients";
 import { table } from 'table';
+import 'moment-duration-format';
 
 export const getShardInfo = async (client: LoliBotClient) => {
 
     const totalGuilds = await client.getTotalGuild();
     const totalMembers = await client.getTotalMember();
-
-    const upTime = client.uptime!;
-
-    const day = Math.floor(upTime / (3600 * 24));
-    const hour = Math.floor(upTime % (3600 * 24) / 3600);
-    const minute = Math.floor(upTime % 3600 / 60);
-    const second = Math.floor(upTime % 60);
-    const dDisplay = day > 0 ? day + (day === 1 ? "d" : "d") : "";
-    const hDisplay = hour > 0 ? hour + (hour === 1 ? ":" : ":") : "";
-    const mDisplay = minute > 0 ? minute + (minute === 1 ? ":" : ":") : "";
-    const sDisplay = second > 0 ? second + (second === 1 ? "s" : "s") : "";
+    const durationBot = duration(client.uptime).format("D[d], H[h], m[m], s[s]")
 
     const data: any[] = [
         ['SID', 'Server', 'Members', 'UpTime', 'Ping', 'Ram', 'HRam'],
@@ -34,7 +26,7 @@ export const getShardInfo = async (client: LoliBotClient) => {
         totalHram += j[7]!;
         data.push([j[0], j[1]!.toLocaleString('En-us'), j[2]!.toLocaleString('En-us'), '', j[5] + 'ms', formatBytes(j[6]!), formatBytes(j[7]!)])
     }
-    data.push(['TOTAL', totalGuilds.toLocaleString('En-us'), totalMembers.toLocaleString('En-us'), `${dDisplay + hDisplay + mDisplay + sDisplay}`, "", formatBytes(totalram), formatBytes(totalHram)]);
+    data.push(['TOTAL', totalGuilds.toLocaleString('En-us'), totalMembers.toLocaleString('En-us'), `${durationBot}`, "", formatBytes(totalram), formatBytes(totalHram)]);
 
     const tableResult = table(data, {
         header: {

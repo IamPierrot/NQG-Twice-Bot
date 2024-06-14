@@ -13,10 +13,10 @@ export = {
      callback: async (client, message, args) => {
           const player = useMainPlayer();
 
-          const song = args[0];
-          let res = await player.search(song, {
+          const song = args[0].toLowerCase();
+          const res = await player.search(song, {
                requestedBy: message.member!,
-               searchEngine: QueryType.AUTO
+               searchEngine: song.match("youtube") ? QueryType.YOUTUBE : QueryType.SPOTIFY_SONG
           });
 
           const NoResultsEmbed = new EmbedBuilder()
@@ -101,13 +101,14 @@ export = {
 
 
                     await msg.edit({ embeds: [playEmbed], components: [] });
+                    isChoice = true;
                }
-               isChoice = true;
           });
 
           collector.on('end', async (collection) => {
                const interaction = collection.last();
-               if (!interaction && isChoice) return;
+               if (!interaction) return;
+               if (isChoice) return;
 
                const timeOutEmbed = new EmbedBuilder()
                     .setColor('#4d1aff')

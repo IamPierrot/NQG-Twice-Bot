@@ -20,7 +20,7 @@ export = async (client: LoliBotClient, message: Message) => {
           const args = message.content.slice(prefix.length).trim().split(/ +/);
           const command = args.shift()!.toLowerCase();
 
-          const commandObject = client.PrefixCommands.find(
+          const commandObject = client.prefixCommands.find(
                (cmd) => cmd.name === command || cmd.aliases?.includes(command)
           );
           if (!commandObject || !message.member) return;

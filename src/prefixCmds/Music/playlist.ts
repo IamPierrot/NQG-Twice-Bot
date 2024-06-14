@@ -49,9 +49,6 @@ export = {
           }
 
           if (!queue.metadata) queue.metadata = message.channel;
-
-
-          console.log(res.playlist);
           
           const playlist = res.playlist;
           queue.addTrack(playlist);

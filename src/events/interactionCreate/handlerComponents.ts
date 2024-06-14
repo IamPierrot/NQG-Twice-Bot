@@ -23,7 +23,9 @@ export = async (client: LoliBotClient, interaction: Interaction) => {
                          return;
                     }
 
-                    if (interaction.user.id === queue.currentTrack.requestedBy!.id) {
+                    if (interaction.user.id === queue.currentTrack.requestedBy!.id ||
+                         ["queueTracks", "history", "lyrics", "volumedown", "volumeup"]
+                              .includes(musicButton.name)) {
                          await musicButton.callback(client, interaction, customId, queue);
                     } else {
                          const errorMessage = new EmbedBuilder()
@@ -62,7 +64,7 @@ export = async (client: LoliBotClient, interaction: Interaction) => {
           if (interaction.isStringSelectMenu()) {
                const menuName = interaction.customId;
                const values = interaction.values;
-          
+
                if (menuName) {
                     const menu = client.components.menus.find((m) => m.name === menuName);
                     if (menu) {
@@ -70,13 +72,13 @@ export = async (client: LoliBotClient, interaction: Interaction) => {
                          await menu.callback(client, interaction, values);
                     }
                }
-          
+
                // Only call deferUpdate if there has been no reply or deferral
                if (!interaction.replied && !interaction.deferred) {
                     await interaction.deferUpdate();
                }
           }
-          
+
      } catch (error) {
           console.log(`There was an Error when running handle Components: ${error}`);
      }

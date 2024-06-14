@@ -185,7 +185,7 @@ export = {
                          caculateScore(userCardsInfo.numArray)
                     ];
 
-                    if (clientCardsInfo.numArray.length < 5 && Math.floor(Math.random() * 2) == 1) {
+                    if (clientCardsInfo.numArray.length < 5 && Math.floor(Math.random() * 3) == 1) {
                          getRandomCards(clientCardsInfo.numArray, clientCardsInfo.cardsEmoji)
                     }
 
@@ -217,7 +217,7 @@ export = {
                     while (clientScore < 21 && clientCardsInfo.numArray.length < 5) {
                          getRandomCards(clientCardsInfo.numArray, clientCardsInfo.cardsEmoji);
                          clientScore = caculateScore(clientCardsInfo.numArray);
-                         if (Math.floor(Math.random() * 2) === 1 || clientCardsInfo.cardsEmoji.length >= 5) {
+                         if (Math.floor(Math.random() * 3) === 1 || clientCardsInfo.cardsEmoji.length >= 5) {
                               break;
                          }
                     }

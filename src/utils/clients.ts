@@ -10,6 +10,10 @@ import { Track } from "discord-player";
 import { BaseComponent, Components, StringSelectMenuComponent, MusicButtonComponent, ButtonStandardComponent } from "../component";
 import inventoryModel from "../database/models/inventoryModel";
 import { GoogleGenerativeAI } from "@google/generative-ai";
+import { mongoSetup } from "../database/database";
+import eventHandlers from '../handlers/eventHandler';
+import { dynamicImportModule } from "./functions";
+
 globalThis.configure = require('../../config.json');
 
 
@@ -17,10 +21,13 @@ export class LoliBotClient extends Client {
      timeStampUser: Collection<string, NodeJS.Timeout> = new Collection();
      userComponent: Collection<string, { custom_id: string, msg: Message<boolean> }> = new Collection();
      cooldowns: Collection<string, Collection<string, number>> = new Collection();
-     gemini = new GoogleGenerativeAI(configure.GEMINI).getGenerativeModel({ model: "gemini-pro" })
 
-     readonly PrefixCommands: PrefixCommands[];
-     readonly slashCommands: SlashCommands[];
+     readonly gemini = new GoogleGenerativeAI(configure.GEMINI).getGenerativeModel({ model: "gemini-pro" })
+
+     readonly prefixCommands: PrefixCommands[] = [];
+     readonly slashCommands: SlashCommands[] = [];
+     readonly events = [];
+
      readonly prefix: string;
      readonly components: Components;
      readonly economyAndCasino: string[] = [];
@@ -35,9 +42,6 @@ export class LoliBotClient extends Client {
      private constructor(clientOptions: ClientOptions) {
           super(clientOptions);
 
-          this.PrefixCommands = [...this.getTextCommands()];
-          this.slashCommands = [...this.getLocalCommands()];
-
           this.customEmoji = sourceEmoji;
           this.itemEmoji = IE;
           this.prefix = (configure.app.prefix);
@@ -46,6 +50,20 @@ export class LoliBotClient extends Client {
 
      public static getInstance() {
           return LoliBotClient.instance;
+     }
+
+     public async start() {
+          try {
+               await mongoSetup(),
+               await Promise.all([
+                    eventHandlers(this),
+                    this.getTextCommands(),
+                    this.getSlashCommands()
+               ]);
+               await this.login(configure.app.token);
+          } catch (error) {
+               console.log(error);
+          }
      }
 
      ////////////////////////// Root functions
@@ -58,48 +76,41 @@ export class LoliBotClient extends Client {
           return member?.reduce((total, mem) => total + mem, 0)!;
      }
 
-
-     private *getTextCommands(exceptions: string[] = []) {
-
+     private async getTextCommands(exceptions: string[] = []) {
           const commandCategories = this.getAllFiles(
                path.join(__dirname, '..', 'prefixCmds'),
                true
           );
-          const featureCommands = ["Economy", "Casino", "Game", "Level", "Lottery", "Inventory"]
-          for (const commandCategory of commandCategories) {
+          const featureCommands = ["Economy", "Casino", "Game", "Level", "Lottery", "Inventory"];
+          await Promise.all(commandCategories.map(async commandCategory => {
                const commandFiles = this.getAllFiles(commandCategory);
                const commandCategoryName = commandCategory.replace(/\\/g, '/').split('/').pop();
 
-               for (const commandFile of commandFiles) {
-                    const commandObject: PrefixCommands = require(commandFile);
-                    if (exceptions.includes(commandObject.name)) {
-                         continue;
-                    }
+               const commandObjects: PrefixCommands[] = await Promise.all(commandFiles.map(file => dynamicImportModule(file)));
+               for (const commandObject of commandObjects) {
+                    if (exceptions.includes(commandObject.name)) continue;
                     if (featureCommands.includes(commandCategoryName!)) this.economyAndCasino.push(commandObject.name);
-                    yield commandObject;
+                    this.prefixCommands.push(commandObject);
                }
-          }
+
+          }));
      }
 
-     private *getLocalCommands(exceptions: string[] = []) {
+     private async getSlashCommands(exceptions: string[] = []) {
           const commandCategories = this.getAllFiles(
-               path.join(__dirname, '..', 'commands'),
-               true
-          );
+               path.join(__dirname, '..', 'commands'), true);
 
-          for (const commandCategory of commandCategories) {
+          await Promise.all(commandCategories.map(async commandCategory => {
                const commandFiles = this.getAllFiles(commandCategory);
+               //     const commandCategoryName = commandCategory.replace(/\\/g, '/').split('/').pop();
 
-
-               for (const commandFile of commandFiles) {
-                    const commandObject: SlashCommands = require(commandFile);
-
-                    if (exceptions.includes(commandObject.name)) {
-                         continue;
-                    }
-                    yield commandObject;
+               const commandObjects: SlashCommands[] = await Promise.all(commandFiles.map(file => dynamicImportModule(file)));
+               for (const commandObject of commandObjects) {
+                    if (exceptions.includes(commandObject.name)) continue;
+                    this.slashCommands.push(commandObject);
                }
-          }
+
+          }));
      }
 
      private getComponents(exceptions: string[] = []): Components {
@@ -190,9 +201,6 @@ export class LoliBotClient extends Client {
      };
 
 
-
-
-
      ////////// Economy functions
      public xemTien(userId: string): Promise<number> {
           return new Promise(async ful => {
@@ -267,4 +275,5 @@ export class LoliBotClient extends Client {
           return true;
      }
      ///////////////////////////////////////////
-} 
+}
+
