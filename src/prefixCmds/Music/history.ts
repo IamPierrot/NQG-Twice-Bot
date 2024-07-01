@@ -9,7 +9,7 @@ export = {
      voiceChannel: true,
 
      callback: async (client, message) => {
-          const queue = useQueue(message.guildId!);
+          const queue = useQueue(message.guild!);
 
           if (!queue || queue.history.tracks.toArray().length == 0) return message.reply({ content: `Không có bài nhạc nào đã phát trước đây....` });
 

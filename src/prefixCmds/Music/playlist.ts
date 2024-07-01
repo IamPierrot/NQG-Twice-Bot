@@ -1,7 +1,7 @@
 import { PrefixCommands } from "../../cmds";
 
 import { EmbedBuilder } from 'discord.js';
-import { useMainPlayer, QueryType } from 'discord-player';
+import { useMainPlayer, QueryType, useQueue } from 'discord-player';
 
 
 export = {
@@ -11,7 +11,7 @@ export = {
      voiceChannel: true,
 
      callback: async (client, message, args) => {
-          const player = useMainPlayer();
+          const player = useMainPlayer()!;
 
           const song = args[0];
           let res = await player.search(song, {
@@ -25,7 +25,7 @@ export = {
 
           if (!res || !res.playlist) return await message.reply({ embeds: [NoResultsEmbed] });
 
-          const queue = player.nodes.create(message.guildId!, { //guildQueue
+          const queue = useQueue(message.guild!) || player.nodes.create(message.guild!, { //guildQueue
                metadata: message.channel,
                // spotifyBridge: configure.opt.spotifyBridge,
                volume: configure.opt.volume,

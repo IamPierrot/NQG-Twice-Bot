@@ -1,7 +1,7 @@
 import { PrefixCommands } from "../../cmds";
 
 import { ActionRowBuilder, ComponentType, EmbedBuilder, StringSelectMenuBuilder, StringSelectMenuOptionBuilder } from 'discord.js';
-import { useMainPlayer, QueryType } from 'discord-player';
+import { useMainPlayer, QueryType, useQueue } from 'discord-player';
 
 
 export = {
@@ -11,12 +11,12 @@ export = {
      voiceChannel: true,
 
      callback: async (client, message, args) => {
-          const player = useMainPlayer();
+          const player = useMainPlayer()!;
 
-          const song = args[0].toLowerCase();
+          const song = args.join(' ');
           const res = await player.search(song, {
                requestedBy: message.member!,
-               searchEngine: song.match("youtube") ? QueryType.YOUTUBE : QueryType.SPOTIFY_SONG
+               searchEngine: QueryType.AUTO
           });
 
           const NoResultsEmbed = new EmbedBuilder()
@@ -26,7 +26,7 @@ export = {
 
           if (!res.tracks.length) return await message.reply({ embeds: [NoResultsEmbed] });
 
-          const queue = player.queues.cache.last() || player.nodes.create(message.guildId!, { //guildQueue
+          const queue = useQueue(message.guildId!) || player.nodes.create(message.guild!, { //guildQueue
                metadata: message.channel,
                // spotifyBridge: configure.opt.spotifyBridge,
                volume: configure.opt.volume,
@@ -74,7 +74,7 @@ export = {
           const collector = msg.createMessageComponentCollector({
                filter: i => i.user.id === message.author.id,
                componentType: ComponentType.StringSelect,
-               time: 20000
+               time: 8000
           });
 
           let isChoice = false;
@@ -94,7 +94,7 @@ export = {
                          :notes:  **${track.toHyperlink()}** \n \
                          \n \
                          :small_blue_diamond: Được thêm vào bởi : ${track.requestedBy?.toString()} 
-                         :small_blue_diamond: Nguồn tìm kiếm : ${track.source}
+                         :small_blue_diamond: Nguồn tìm kiếm : **${track.source}**
                          `)
                          .setTimestamp()
                          .setFooter({ text: 'Âm nhạc đi trước - Tình yêu theo sau ❤️' })

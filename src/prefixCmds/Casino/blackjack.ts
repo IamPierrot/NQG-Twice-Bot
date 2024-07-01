@@ -20,7 +20,7 @@ export = {
           let moneyBet: number = await client.getMoneyBet(message.author.id, args);
           if (client.checkGameSyntax(moneyBet, bal)) return await message.reply({
                embeds: [
-                    new EmbedBuilder().setTitle(`${moneyBet > bal ? "Nghèo mà sĩ" : "Bạn đã nhập sai cú pháp!"}`)
+                    new EmbedBuilder().setTitle(  `${moneyBet > bal ? "Nghèo mà sĩ" : "Bạn đã nhập sai cú pháp!"}`)
                          .setDescription(`
                               > VD: ${configure.app.prefix} 3000
                               > Chọn mức tiền để cược.
@@ -100,7 +100,7 @@ export = {
 
           const collector = replied.createMessageComponentCollector({
                componentType: ComponentType.Button,
-               time: 60000,
+               time: 10000,
                filter: i => i.user.id == message.author.id,
           });
 

@@ -6,11 +6,10 @@ import extraChannelModel from "../../database/models/extraChannels";
 export = async (client: LoliBotClient, message: Message) => {
      try {
           if (message.author.bot) return;
-
           if (!(await extraChannelModel.findOne({ guildId: message.guildId! }))) await new extraChannelModel({ guildId: message.guildId! }).save();
 
           const checkPrefix = (prefix: string): boolean => message.content.toLowerCase().startsWith(prefix.toLowerCase());
-
+          
           let prefix = client.prefix;
           const prefixAuth = await client.getPrefix(message.guildId!);
           if (prefixAuth && !checkPrefix(prefix)) prefix = prefixAuth;
